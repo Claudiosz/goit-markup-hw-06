@@ -72,7 +72,7 @@
           <div class="modal">
             <div class="form-container">
               <p>Залиште свої дані, ми вам передзвонимо</p>
-              <form action="">
+              <form>
                 <div class="form-block">
                   <label for="name" class="form-label">Ім'я</label>
                   <input class="form-input" type="text" name="name" id="name" />
@@ -110,7 +110,7 @@
                   ></textarea>
                 </div>
                 <div class="agree-block">
-                  <label class="agree-lable" for="agree"
+                  <label class="agree-label" for="agree"
                     >Погоджуюся з розсилкою та приймаю
                     <span class="terms">Умови договору</span>
                     <input
@@ -438,6 +438,7 @@
     <!-- Підвал -->
     <footer class="footer">
       <div class="container">
+        <div class="container">
         <div>
           <a href="./index.html" class="logo link" lang="en"
             ><span class="span">Web</span>Studio</a
@@ -499,12 +500,15 @@
             </li>
           </ul>
         </div>
+        </div>
+        <div>
+      <p class="message-label">Підпишіться на розсилку</p>
+      <form class="message">
+        <input type="email" name="email" id="email" placeholder="E-mail"/>
+        <button class="bub" type="submit">Підписатися<svg class="icons"><use href="./images/icons.svg#icon-send"></use></svg></button>
+      </form>
       </div>
-      <p>Підпишіться на розсилку</p>
-         <form class="message">
-            <input type="email" name="email" id="email" />
-            <button type="submit">Підписатися</button>
-          </form>
+      </div> 
     </footer>
     <script src="./modal.js"></script>
   </body>
