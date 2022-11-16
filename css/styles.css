@@ -634,6 +634,7 @@ a {
 }
 .footer input {
   color: var(--accent2-color);
+  outline: none;
 }
 .footer input:focus {
   border-color: var(--accent3-color);
